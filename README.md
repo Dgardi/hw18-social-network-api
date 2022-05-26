@@ -8,3 +8,4 @@ A video of this demo can be found here:
 https://drive.google.com/file/d/1y1Kojbo5JN6H5-20fcnXvEdKwskW3PgT/view?usp=sharing
 
 This can be started by typing NPM run start in a git bash terminal from the root folder. 
+![Demo](./demo.gif)
