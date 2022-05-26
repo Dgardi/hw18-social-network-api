@@ -2,8 +2,8 @@ const { Schema, model, Types} = require('mongoose');
 const moment = require('moment');
 
 // Ref: Lesson 18.1.(12,18, 21, 23)
-// Reaction is not it's own Model, but used as the 'reaction' field's subdocument schema"
-// toughtSchema defines shape for reaction subdocument
+// Reaction is not it's own Model, but used as the 'reaction' field's sub document schema"
+// toughtSchema defines shape for reaction sub document
 
 const reactionSchema = new Schema ({
     reactionId: {

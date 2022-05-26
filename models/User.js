@@ -1,9 +1,10 @@
-const { Schema, model} = require('mongoose');
+const { Schema, model}= require('mongoose');
+const { Thought } = require('../models')
 
 // Referenced Models lesson 18.1.21
 
 // Schema to create the User model
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema({
     username: {
         type: String,
         unique: true,
@@ -31,7 +32,8 @@ const userSchema = new mongoose.Schema({
     },
     {
         toJSON: {
-            virtuals: true
+            virtuals: true,
+            getters: true,
         },
         id: false
     }
